@@ -62,3 +62,7 @@ button#search {
     width: 50%;
     margin: 0 auto;
 }
+.center{
+    border: 2px 2px 2px 2px red;
+    border-radius: 5px;
+}
