@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: bisque;
+    font-family: 'Oswald', sans-serif;
+}
+.main-manu li a {
+    font-size: 22px;
+    color: black;
+}
+
+.main-manu li {
+    padding: 5px;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+}
+input#foodInput {
+    font-size: 25px;
+}
+
+button#search {
+    font-size: 25px;
+}
+.card{
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+.card h1{
+    font-size: 25px;
+    padding: 15px 5px;
+    text-align: center;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+#foodsData{
+    text-align: center;
+    background-color: rgb(255, 238, 221);
+    border-radius: 30px;
+    padding: 20px 0px;
+    display: none;
+}
+.food-details img {
+    width: 60%;
+    border-radius: 30px;
+}
+.food-details h1{
+    padding: 5px 0px;
+    font-size: 30px;
+}
+.food-details h3{
+    padding: 3px 0px;
+    font-size: 25px;
+    text-align: left;
+}
+.food-details{
+    width: 50%;
+    margin: 0 auto;
+}
