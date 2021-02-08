@@ -57,11 +57,13 @@ button#search {
 .box{
     width: 300px;
     border-radius: 20px;
-    margin: 15px;
+    margin-left: 500px;
     font-size: 15px;
    border:15px solid rgb(236, 173, 96);
    padding: 15px;
    display: grid;
+   text-align: center;
+
 
 }
 .header{
