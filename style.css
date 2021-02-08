@@ -4,19 +4,7 @@ body {
     background-color: bisque;
     font-family: 'Oswald', sans-serif;
 }
-.main-manu li a {
-    font-size: 22px;
-    color: black;
-}
 
-.main-manu li {
-    padding: 5px;
-}
-
-.logo {
-    font-size: 30px;
-    color: black;
-}
 input#foodInput {
     font-size: 25px;
 }
@@ -25,7 +13,7 @@ button#search {
     font-size: 25px;
 }
 .card{
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
     margin: 5px;
     font-size: 15px;
@@ -65,4 +53,26 @@ button#search {
 .center{
     border: 2px 2px 2px 2px red;
     border-radius: 5px;
+}
+.box{
+    width: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    font-size: 15px;
+   border:15px solid rgb(236, 173, 96);
+   padding: 15px;
+   display: grid;
+
+}
+.header{
+    color:blue;
+    font-size: 20px;;
+}
+.cuteBoy img{
+    width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+ 
 }
