@@ -54,11 +54,29 @@ const search = document.getElementById("search").addEventListener('click',functi
            <h1> Items Name </h1>
            <br>
            
-           <p1>${foodsIngi. strArea}</p1>
+           <h1> Food Area:</h1>
+           <p>${foodsIngi. strArea}</p1>
           <br>
           <p1>${foodsIngi.strMeal}</p1>
            <br>
+           <h1> Food Types: </h2>
            <p1>${foodsIngi.strCategory}</p1>
+           <br>
+           <h1> Food Ingredient:</h1>
+           <p1> ${foodsIngi.strIngredient1}</p1>
+           <br>
+           <p1>${foodsIngi.strIngredient2}</p1>
+           <br>
+           <p1>${foodsIngi.strIngredient3}</p1>
+           <br>
+           <p1>${foodsIngi.strIngredient4}</p1>
+           <br>
+           <p1>${foodsIngi.strIngredient5}</p1>
+           <br>
+           <p1>${foodsIngi.strIngredient6}</p1>
+           <br>
+           <p1>${foodsIngi.strIngredient7}</p1>
+           <br>
            
           
            `
