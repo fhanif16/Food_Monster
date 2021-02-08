@@ -23,14 +23,14 @@ const search = document.getElementById("search").addEventListener('click', funct
 
         })
         .catch(error => {
-            console.log(error);
+           
             document.getElementById('foods').innerHTML = "";
             document.getElementById('foodsInfo').innerHTML = ' ';
             const foods = document.getElementById('foods');
             const notFound = document.createElement('h1')
             notFound.innerHTML = `<h1 class="center">Your desire item is not in our list.</h1>
-             <h1 class="center">Please try other items</h1>`;
-            foods.appendChild(notFound);
+             <h1 class="center">Please try other items.</h1>`;
+             foods.appendChild(notFound);
         })
 })
 
@@ -96,7 +96,7 @@ let foodIngredients = ingredients => {
            
           
            `
-           foodsInfo.className = "box";
+            foodsInfo.className = "box";
             foodsInfo.appendChild(foodsDetails);
 
 
